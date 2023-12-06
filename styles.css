@@ -1,0 +1,199 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: #fff;
+    background-image: url('c.jpeg');
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 12px 24px 140px 140px;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: orange;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.navbar a {
+    color: rgb(43, 255, 0);
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: wheat;
+}
+
+#about {
+    position: relative;
+    height: fit-content;
+    text-align: center;
+    padding: 60px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 60px 140px 60px 140px;
+    margin-top: 80px;
+}
+
+.about-content-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 140px 30px 140px;
+    background-image: url('chi.png');
+    background-position: 65%;
+}
+
+.about-content {
+    max-width: 800px;
+}
+
+.about-content h1 {
+    color: aqua;
+    font-style: normal;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.about-content p {
+    color: white;
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#courses {
+    padding: 90px;
+    text-align: center;
+    border-radius: 180px 180px 180px 180px;
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+#courses h1 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.courses-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url('course2.png');
+    background-repeat: inherit;
+    border-radius: 60px 40px 60px 70px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.course-card {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 80px 60px 80px 60px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+}
+
+.course-card h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course-card p {
+    color: #555;
+}
+
+#timings {
+    position: relative;
+    height: fit-content;
+    text-align: center;
+    padding: 40px 0;
+    background-color: #3498db;
+    color: #fff;
+    background-image: url('clo (1).png');
+    background-position: 50%;
+    border-radius: 120px 24px 140px 40px;
+    margin-top: 40px;
+}
+
+.timings-info {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timings-info h1 {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.timings-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: brown;
+}
+
+#contact {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 40px;
+    border-radius: 20px 120px 20px 140px;
+    background-image: url('g.jpeg');
+    background-repeat: repeat-y;
+    background-position: left;
+}
+
+.contact-info {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-info h1 {
+    padding: 20px;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 16px;
+    color: white;
+}
